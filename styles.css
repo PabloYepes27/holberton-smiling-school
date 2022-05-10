@@ -133,12 +133,10 @@ span.pros-title {
     margin-bottom: 0;
     font-size: var(--font-size-medium);
 }
-
 .col p.name-pro,
 p.name-pro {
     font-size: 18px;
 }
-
 /* Carousel section
 ============================= */
 .bg-carousel {
@@ -182,12 +180,32 @@ p.name-pro {
     line-height: 27px;
     font-weight: 600;
 }
-
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 /* Free membership section
 ============================= */
-
 .bg-free-membership {
     background-color: #071629;
+}
+
+/* Footer
+============================= */
+
+div.container .mark {
+    font-size: var(--font-size-xsmall);
+    line-height: var(--line-height-xsmall);
+    color: var(--color-white);
+    background-color: #071629;
+    opacity: 0.35;
+    mix-blend-mode: normal;
+    align-self:flex-end;
+}
+
+.social-link {
+    color: var(--color-white);
+    font-size: 35px;
 }
 
 @media screen and (max-width: 1200px) {
