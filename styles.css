@@ -71,10 +71,8 @@ a {
 a:hover, a:active {
     color: var(--color-primary);
 }
-
 .header-homepage {
     background-image: url(images/pic_1.jpg);
-    background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: 0;
@@ -125,6 +123,9 @@ li.col-lg img {
 span.pros-title {
     color: var(--color-primary);
 }
+.title-pros {
+    font-size: var(--font-size-large);
+}
 .pros-section h2 {
     margin-bottom: 100px;
 }
@@ -132,21 +133,61 @@ span.pros-title {
     margin-bottom: 0;
     font-size: var(--font-size-medium);
 }
-.col p.name-pro {
+
+.col p.name-pro,
+p.name-pro {
     font-size: 18px;
 }
 
 /* Carousel section
 ============================= */
-
 .bg-carousel {
     background-color: var(--color-primary);
 }
-
 .info-carousel p {
     font-size: 22px;
     line-height: 33.6px;
     margin-left: -50px;
+}
+/* Carousel tutorials section
+============================= */
+.bg-tutorials {
+    background-color: #FFFFFF;
+}
+.tutorials-title {
+    font-size: var(--font-size-large);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.play-icon {
+    margin: -110px 0 0 95px;
+}
+.card-video {
+    width: 255px;
+    height: 355px;
+}
+.card-body .title-card {
+    margin-top:45px;
+    font-size: var(--font-size-medium);
+    line-height: 20px;
+}
+.card-body span {
+    font-size: var(--font-size-small);
+    font-weight: normal;
+    line-height: 24px;
+}
+.title-view {
+    color: var(--color-primary);
+    font-size: var(--font-size-small);
+    line-height: 27px;
+    font-weight: 600;
+}
+
+/* Free membership section
+============================= */
+
+.bg-free-membership {
+    background-color: #071629;
 }
 
 @media screen and (max-width: 1200px) {
@@ -182,7 +223,6 @@ span.pros-title {
         margin-left: 3rem;
         margin-right: 3rem;
     }
-
     .info-carousel p {
         margin-left: -5px;
     }
