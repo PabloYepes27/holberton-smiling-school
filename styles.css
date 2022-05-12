@@ -87,6 +87,16 @@ a:hover, a:active {
     background-position-y: 0;
     max-width: 100%;
 }
+
+.header-courses {
+    background-image: url(/images/pic_3.jpg);
+    background-color: #071629;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-y: 1;
+    max-width: 100%;
+}
+
 .container {
     width: 100%;
     padding-right: 0;
@@ -100,6 +110,13 @@ a:hover, a:active {
     margin-top: 130px;
     margin-bottom: -12px;
 }
+
+.section-title-courses {
+    font-family: Coiny;
+    font-size: var(--font-size-large);
+    line-height: 35px;
+}
+
 .hero-section li {
     font-size: var(--font-size-medium);
 }
@@ -184,14 +201,11 @@ p.name-pro {
 .icon-check {
     font-size: 28px;
 }
-
 .color-hr {
     background-color: #ffffff;
 }
-
 /* Carousel section
 ============================= */
-
 .bg-carousel {
     background-color: var(--color-primary);
 }
@@ -242,21 +256,17 @@ p.name-pro {
 .bg-free-membership {
     background-color: #071629;
 }
-
 /* FAQ section
 ============================= */
-
 .title-faq {
     font-size: var(--font-size-medium);
     line-height: var(--line-height-medium);
 }
-
 .text-faq {
     font-size: var(--font-size-small);
     line-height: 24px;
     color: rgba(7, 22, 41, 0.501584);
 }
-
 /* Footer
 ============================= */
 div.container .mark {
